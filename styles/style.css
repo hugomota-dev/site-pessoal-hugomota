@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-li {
+ul {
     list-style: none;
 }
 
@@ -50,4 +50,23 @@ h2 {
 
 .header__nav .header__social-list-item a {
     padding: 1rem 0.75rem;
+}
+
+/* Main and Hero */
+main {
+    background: rgb(3, 57, 3);
+}
+
+.main__hero {
+    display: flex;
+}
+.main-content{
+    padding: 1rem 6vw 0 6vw;
+    
+}
+@media screen and (max-width: 64rem) {
+    .main__hero {
+        display: flex;
+        flex-direction: column;
+    }
 }
